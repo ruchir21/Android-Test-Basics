@@ -35,7 +35,6 @@ public class Main2Activity extends AppCompatActivity {
         EditText getcourse;
         EditText getfees;
         EditText getcollege;
-        ScrollView sv;
         TextView tv;
         Button submit;
         Button display;
@@ -56,7 +55,6 @@ public class Main2Activity extends AppCompatActivity {
             getcourse = (EditText) findViewById(R.id.courseid);
             getfees = (EditText) findViewById(R.id.feesid);
             getcollege=(EditText)findViewById(R.id.collegeid);
-            sv=(ScrollView)findViewById(R.id.scroll);
             tv=(TextView)findViewById(R.id.res);
             submit = (Button) findViewById(R.id.submitbtn);
             display=(Button)findViewById(R.id.displayres);
